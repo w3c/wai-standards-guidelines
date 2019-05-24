@@ -122,7 +122,7 @@ ARIA info:
 
 - [WebVTT: The Web Video Text Tracks Format {% include_cached different.html label="to W3C site" %}](https://www.w3.org/TR/webvtt/) is a format for captions, text video descriptions, and other metadata that is time-aligned with audio or video content.
 
-- [Timed Text Markup Language {% include_cached different.html label="to W3C site" %}](https://www.w3.org/TR/ttml2/) is intended to be used for transcoding or exchanging timed text information among legacy distribution content formats for subtitling and captioning.
+- [Timed Text Markup Language (TTML) {% include_cached different.html label="to W3C site" %}](https://www.w3.org/TR/ttml/) is intended to be used for transcoding or exchanging timed text information among legacy distribution content formats for subtitling and captioning.
 
 ### Evaluation {#eval}
 
