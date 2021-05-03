@@ -2,6 +2,7 @@
 title: "Changelog for W3C Accessibility Standards Overview "
 title_html: "Changelog for <a href='/WAI/standards-guidelines/'>W3C Accessibility Standards Overview</a>"
 nav_title: "Changelog"
+layout: default
 github:
   repository: w3c/wai-std-gl-overview
   path: content/changelog.md
