@@ -6,13 +6,14 @@ nav_title: "Стандарты/Рекомендации" # A short title that is
 
 lang: ru   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2019-07-12   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-17   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators:
 - name: "Elena Varkvasova"
 - name: "UNESCO IITE"
   link: https://iite.unesco.org/
 - name: "ИИТО ЮНЕСКО"
 ref: /standards-guidelines/   # Do not change this
+changelog: /standards-guidelines/changelog/
 layout: default
 github:
   repository: w3c/wai-std-gl-overview
@@ -21,7 +22,7 @@ permalink: /standards-guidelines/ru   # Add the language shortcode to the end; f
 feedbackmail: wai@w3.org
 
 footer: >   # Do not change these dates. Do translate the "Date", "Editor" and the dates themselves.
-  <p><strong>Дата:</strong> Обновлено 13 марта 2019 года.</p>
+  <p><strong>Дата:</strong> Обновлено 30 апреля 2021 года. CHANGELOG.</p>
   <p><strong>Под редакцией:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Разработано при содействии Рабочей Группы по Образованию и Просвещению (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
@@ -66,7 +67,7 @@ footer: >   # Do not change these dates. Do translate the "Date", "Editor" and t
 
 [[В разделе Основные компоненты веб-доступности]](/fundamentals/components/) раскрывается информация о влиянии тесной взаимосвязи отдельных элементов разработки контента и взаимодействия с Интернет-пользователями на обеспечение веб-доступности, а также описаны способы применения рекомендаций WAI (WCAG, ATAG, UAAG).
 
-### Руководство по обеспечению доступности веб-контента (WCAG) {#wcag}
+### Руководство по обеспечению доступности веб-контента (WCAG) 2 {#wcag2}
 
 Веб-«контент», как правило, подразумевает информацию, размещённую на Интернет-странице или в онлайн-приложении, в том числе:
 
@@ -75,12 +76,14 @@ footer: >   # Do not change these dates. Do translate the "Date", "Editor" and t
 
 Руководство по обеспечению доступности веб-контента (WCAG) применяется к динамическому содержимому, мультимедийным материалам, “мобильному” контенту и т.д. Указания WCAG могут также распространяться на несетевые информационные и коммуникационные технологии, согласно описанию [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
-Информация о Руководстве WCAG:
+Информация о Руководстве WCAG 2:
 - [Обзор WCAG](/standards-guidelines/wcag/)
 - [[Общая информация о WCAG 2.1]](/standards-guidelines/wcag/glance/)
 - [Практическое руководство по WCAG 2 (Краткий справочник)](https://www.w3.org/WAI/WCAG21/quickref/)
+- [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/)
 - [Стандарт WCAG 2.0](https://www.w3.org/TR/WCAG20/)
-- [Стандарт WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+- [Стандарт WCAG 2.1](https://www.w3.org/TR/WCAG21/), [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/)
+- [[What's New in WCAG 2.2 Working Draft]](/standards-guidelines/wcag/new-in-22/)
 
 ### Руководство по доступности средств разработки авторского контента (ATAG) {#atag}
 
@@ -100,6 +103,13 @@ footer: >   # Do not change these dates. Do translate the "Date", "Editor" and t
 Информация о Руководстве UAAG:
 - [Обзор UAAG](/standards-guidelines/uaag/)
 - [Примечание к UAAG 2.0](https://www.w3.org/TR/UAAG20/)
+
+### W3C Accessibility Guidelines (WCAG) 3 Working Draft {#wcag3}
+
+WCAG 3 is an early draft that is intended to become a W3C Standard. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web.
+
+WCAG 3 info:
+- [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/)
 
 ## Технические требования
 
@@ -135,6 +145,10 @@ ARIA обеспечивают семантику, необходимую авт�
 ### Персонализация
 
 [[Общие сведения о персонализации]](/personalization/) &mdash; Персонализация предусматривает адаптацию пользовательского интерфейса в соответствии с потребностями и предпочтениями конкретного пользователя. Разработчики веб-контента могут использовать стандарты персонализации для установки оформления по умолчанию и, тем самым, обеспечивать возможность персонализации с минимальными усилиями со стороны пользователя.
+
+### Pronunciation
+
+[[Pronunciation Overview]](/pronunciation/) &mdash; Pronunciation is about screen readers and other text-to-speech (TTS) synthesis pronouncing content properly.
 
 ## Другие направления деятельности Инициативы по обеспечению доступности W3C WAI
 
