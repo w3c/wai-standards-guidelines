@@ -1,12 +1,12 @@
 ---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 
-title: نبذة عن معيار الاتحاد العالمي للويب لإمكانية الوصول  # Do not translate "title:". Do translate the text after "title:".
+title: نبذة عن معيار الاتحاد العالمي للويب لإمكانية الوصول  correct translation with "W3C" # Do translate the text after "title:".
 nav_title: "معايير/إرشادات" # A short title that is used in the navigation
 
 lang: ar   # Change "en" to the translated language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 
-last_updated: 2020-10-26   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-17  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 translators: 
 - name: " الاتحاد السعودي للأمن السيبراني والبرمجة والدرونز "   # Replace @@ with translator name
 - name: "محمد سليم"   # Replace @@ with name, or delete this line if not multiple translators
@@ -15,6 +15,7 @@ contributors:
 - name: "مريم نصيب"   # Replace @@ with name, or delete this line if not multiple contributors
 
 ref: /standards-guidelines/   # Do not change this
+changelog: /standards-guidelines/changelog/
 layout: default
 github:
   repository: w3c/wai-std-gl-overview
@@ -23,7 +24,7 @@ permalink: /standards-guidelines/ar   # Add the language shortcode to the end; f
 feedbackmail: wai@w3.org
 
 footer: >   # Translate all the words below, including "Date:" and "Editor:". Do not change these dates.
-  <p><strong>التاريخ:</strong> تم التحديث في 13 مارس 2019.</p>
+  <p><strong>التاريخ:</strong> تم التحديث في 30 أبريل 2021. CHANGELOG.</p>
   <p><strong>محرر:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p> تم تطويره بمساهمة فريق التعليم و التوعية (<a href="https://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
@@ -69,7 +70,7 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 
 [[المكونات الأساسية للوصول للويب]]( /fundamentals/components/) توضح مدى اعتماد مستوى الوصول على تفاعل المكونات المختلفة لتطوير الويب مع بعضها، و توضح كيف يمكن تطبيق ارشادات WAI (WCAG, ATAG, UAAG).
 
-### دليل الوصول لمحتوى الويب  (WCAG) {#wcag}
+### دليل الوصول لمحتوى الويب  (WCAG) 2 {#wcag2}
 
 بشكل عام، فإن المصطلح "محتوى الويب" يشير إلى معلومات في صفحة ويب أو تطبيق ويب، وذلك يشمل:
 * المعلومات الاساسية مثل النصوص، الصور، والأصوات
@@ -77,12 +78,14 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 
 بالإمكان تطبيق معايير  WCAG على المحتويات التفاعلية، ومتعددة الوسائط، وعلى "الهواتف المحمولة"، إلخ. بالإمكان أيضاً تطبيق معايير WCAG على تكنولوجيا المعلومات والاتصالات information and communications technologies (ICT) في غير الويب، وفقاً لما هو مفصل في [WCAG2ICT](/standards-guidelines/wcag/non-web-ict/).
 
-معلومات عن WCAG:
+معلومات عن WCAG 2:
 - [نبذة عن WCAG](/standards-guidelines/wcag/)
 - [[ملخص WCAG 2.1]](/standards-guidelines/wcag/glance/)
 - [كيفية العمل بـ WCAG 2  (المرجع السريع)](https://www.w3.org/WAI/WCAG21/quickref/)
+- [[WCAG 2 Translations]](/standards-guidelines/wcag/translations/)
 - [معيار 2.0 WCAG](https://www.w3.org/TR/WCAG20/)
-- [معيار2.1  WCAG](https://www.w3.org/TR/WCAG21/)
+- [معيار2.1  WCAG](https://www.w3.org/TR/WCAG21/), [[What’s New in WCAG 2.1]](/standards-guidelines/wcag/new-in-21/)
+- [[What's New in WCAG 2.2 Working Draft]](/standards-guidelines/wcag/new-in-22/)
 
 ### ارشادات الوصول لأدوات التطوير   (ATAG) {#atag}
 
@@ -101,6 +104,13 @@ footer: >   # Translate all the words below, including "Date:" and "Editor:". Do
 معلومات عن UAAG:
 -	[نبذة عن UAAG](/standards-guidelines/uaag/)
 -	[ملاحظات عن UAAG 2.0](https://www.w3.org/TR/UAAG20/)
+
+### W3C Accessibility Guidelines (WCAG) 3 Working Draft {#wcag3}
+WCAG 3 is an early draft that is intended to become a W3C Standard. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web.
+
+WCAG 3 info:
+* [[WCAG 3 Introduction]](/standards-guidelines/wcag/wcag3-intro/)
+
 ## مواصفات تقنية
 
 ### تطبيقات انترنت غنية متاحة  (WAI-ARIA) {#aria}
