@@ -18,7 +18,7 @@ changelog: /standards-guidelines/changelog/
 layout: default
 github:
   repository: w3c/wai-std-gl-overview
-  path: index.ko.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
+  path: content/index.ko.md   # Add the language shortcode to the middle of the filename, for example index.fr.md
 permalink: /standards-guidelines/ko   # Add the language shortcode to the end; for example /standards-guidelines/fr
 feedbackmail: wai@w3.org
 
